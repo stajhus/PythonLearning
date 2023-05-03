@@ -1,0 +1,34 @@
+#Defining a Function to get the mean value of the elements in a list.
+# Step 1 Define a funciton usind "def" and name it "myavgfun" and passing an argument for a list within the pranthesis "mylist". to define a function you need 3 things a) declaraing (def), naming (myavgfun), and passing argument (mylist) an dthe last is the addition of ":"
+# Step 2 to retuen the funciton use "return" and I use sum and len arguments to find the mean value
+# Step 3 define the mylist wihch is used int eh return and funciton 
+# Step 4 get the value of the return in aanother variable I called it avg
+# Step 5 print the value of the return which is now stored in the variable "avg" and I use "round" to roundoff the value to the 2 digit after the decimle. 
+
+def myavgfun(mylist):
+	
+	return sum(mylist) / len(mylist)
+    
+mylist = [2,3,4,5,4,5,4]
+avg=myfun(xyz)
+
+print("Average of listxyz is:", round(avg,2))
+print("Average of listxyz is:", avg)    
+
+
+# printing the date of birth of by calling the function DOB:
+def DOB (mdob):
+	return mdob
+    
+mdob = 18021987
+det=DOB(mdob)
+
+
+
+def averageheight (tenthclass):
+  return sum(tenthclass) / len(tenthclass)
+
+tenthclass = [5,6,6,5,7,4,4]
+
+resultoftheightfunction=averageheight (tenthclass)
+print("this is the value of the average height of the class we studied is: ",  round(resultoftheightfunction,2)) 
