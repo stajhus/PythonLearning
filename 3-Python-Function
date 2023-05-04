@@ -15,7 +15,7 @@ avg=myfun(xyz)
 print("Average of listxyz is:", round(avg,2))
 print("Average of listxyz is:", avg)    
 
-
+############################
 # printing the date of birth of by calling the function DOB:
 def DOB (mdob):
 	return mdob
@@ -24,7 +24,7 @@ mdob = 18021987
 det=DOB(mdob)
 
 
-
+############################
 def averageheight (tenthclass):
   return sum(tenthclass) / len(tenthclass)
 
@@ -32,3 +32,48 @@ tenthclass = [5,6,6,5,7,4,4]
 
 resultoftheightfunction=averageheight (tenthclass)
 print("this is the value of the average height of the class we studied is: ",  round(resultoftheightfunction,2)) 
+
+############################
+def myfun(xyz):
+	meanv = sum(xyz) / len(xyz)
+	return meanv
+    
+xyz = [2,3,4,5,4,5,4]
+avg=myfun(xyz)
+
+print("Average of listxyz is:", round(avg,2))
+
+
+############################
+
+print("Please Ente you first name")
+print ("Please Enter you last name")
+
+def greeting (fname, lname):
+	print ("How can I help you today ")
+	return (fname, lname)
+		
+fname= {"Tom"}
+lname = {"Riddel"}
+name= greeting (fname, lname)
+print("Dortcam is here to help you " , name)
+
+
+############################
+
+print("Please Ente you first name")
+fname= ["Tom"]
+print(fname)
+print ("Please Enter you last name")
+lname = ["Riddel"]
+print(lname)
+
+def greeting (fname, lname):
+	return fname,lname
+	
+myname= greeting (fname, lname)
+print(" How can I help you today " , myname)
+
+
+
+
